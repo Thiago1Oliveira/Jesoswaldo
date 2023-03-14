@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <a href="index.html">
+		<link rel="stylesheet" type="text/css" href="contato.css" />
+        <i class="fas fa-arrow-left"></i> Voltar para a página principal
+    </a>
+    
+	<title>Formulário de Contato</title>
+	<style>
+		table {
+			border-collapse: collapse;
+		}
+		table, th, td {
+			border: 1px solid black;
+			padding: 5px;
+		}
+	</style>
+</head>
+<center>
+
+<body>
+   
+    
+    <img src="listen-quarter.jpg" width="213" height="130" >
+
+
+    
+	<h1>Formulário de Contato</h1>
+	
+		<table>
+			<tr>
+				<th>Nome:</th>
+				<td><input type="text" name="nome" required></td>
+			</tr>
+			<tr>
+				<th>E-mail:</th>
+				<td><input type="email" name="email" required></td>
+			</tr>
+			<tr>
+				<th>Telefone:</th>
+				<td><input type="tel" name="telefone"></td>
+			</tr>
+			<tr>
+				<th>Data de Nascimento:</th>
+				<td><input type="date" name="nascimento"></td>
+			</tr>
+			<tr>
+				<th>Assunto:</th>
+				<td>
+					<select name="assunto">
+						<option value="suporte">Suporte</option>
+						<option value="vendas">Vendas</option>
+						<option value="outra">Outra</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>Mensagem:</th>
+				<td><textarea name="mensagem"></textarea></td>
+			</tr>
+		</table>
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>
